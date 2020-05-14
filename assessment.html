@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assessment.css">
+</head>
+
+<body>
+    <h1>あなたの良いところは？</h1>
+    <p>診断したい名前を入力</p>
+    <input type="text" id="user-name" size="40" maxlength="26">
+    <!--入力形式＝テキスト、id属性＝ユーザー名、入力欄サイズ40、最大文字数26-->
+    <button id="assessment">診断する</button>
+    <!---->
+    <div id="result2"></div>
+    <div id="tweet"></div>
+    <!--単体では意味をなさないが後で機能を足すときに使う-->
+    <!--a href="https://twitter.com/intent/tweet?button_hashtag=あなたの良いところ&ref_src=twsrc%5Etfw"
+        class="twitter-hashtag-button" data-text="診断結果" data-show-count="false">Tweet #あなたの良いところ</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+    <script src="assessment.js"></script>
+</body>
+
+</html>
